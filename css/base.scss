@@ -1,0 +1,54 @@
+$dark: #2b2b2b;
+$gray: #e5e5e5;
+$black-gray: #626262;
+$dark-gray: #a9a9a9;
+$more-gray: #c9c9c9;
+$bg-gray: #eeeeee;
+$grey-green: #88bdbc;
+$gray-white: #959595;
+$white: #ffffff;
+$light-white: #dcdcdc;
+$orange: #eb6100;
+$light-orange: #f39800;
+$light-orange-hover: #d98f14;
+$orange-red: #e60012;
+$blue: #2666b5;
+$little-blue: #bdd6ef;
+$heavy-blue: #2f5c94;
+$violet-blue: #4444bd;
+$purple: #5708a8;
+$black: #000;
+$deep-red: #e02121;
+$green: #4dbb9b;
+$yellow: #feca6f;
+$yellow-hover: #e2a74e;
+$orange-hover: #bc4b0c;
+$menu-bg: #3b3b3b;
+$menu-light-bg: #656565;
+
+@mixin clearfix {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+@mixin border-radius($tl:$default-border-radius, $tr:$tl, $br:$tl, $bl:$tl) {
+    -moz-border-radius: $tl $tr $br $bl;
+    -webkit-border-radius: $tl $tr $br $bl;
+    border-radius: $tl $tr $br $bl;
+}
+
+@mixin box-shadow($left, $top, $blur, $color:#000) {
+    -webkit-box-shadow: $left $top $blur $color;
+    -moz-box-shadow: $left $top $blur $color;
+    box-shadow: $left $top $blur $color;
+}
+
+@mixin opacity($val) {
+    filter: alpha(opacity= $val * 100);
+    -moz-opacity: $val;
+    -khtml-opacity: $val;
+    opacity: $val;
+}

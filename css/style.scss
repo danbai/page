@@ -1,0 +1,61 @@
+@import 'base';
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,img {
+  border: 0;
+}
+
+ol,ul {
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: $white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input, select {
+  margin: 0;
+  padding: 0;
+  text-shadow: none;
+  box-shadow: none;
+  text-indent: 0;
+  text-transform: none;
+  background-image: none;
+  border-image-outset: 0;
+  font: 12px/1.5 'Arial','Microsoft YaHei UI','Microsoft YaHei','sans-serif';
+}
+
+body {
+  font: 12px/1.5 'Arial','Microsoft YaHei UI','Microsoft YaHei','sans-serif';
+  color: $white;
+  width: 100%;
+  background-color: $dark;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-image: url('https://static.sonkwo.com/assets/bg-3812b2366dc0204ed49c3f81c612f6ddd6621025980d2446d8cb1418f2afbf0d.jpg');
+  min-height: 800px;
+}
+
+.hidden {
+  display: none;
+}

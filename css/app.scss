@@ -1,0 +1,69 @@
+@import 'style';
+
+.app_container {
+    .route {
+        position: absolute;
+        left: 50%;
+        margin-left: 200px;
+        top: 200px;
+        li {
+            float: left;
+            font-size: 16px;
+            padding-left: 23px;
+            :hover {
+                color: #eb6100;
+            }
+        }
+    }
+    .banner {
+        width: 100%;
+        min-width: 1200px;
+        height: 364px;
+        background: url('http://7fvk4m.com1.z0.glb.clouddn.com/FjM2simyAFnBjY9Xg2EmoQo4tbAY') center center no-repeat;
+    }
+    .content {
+        width: 1200px;
+        margin: 0 auto;
+        .content-header {
+            position: relative;
+            :after{
+                @include clearfix;
+            }
+            .link-to-store {
+                width: 124px;
+                height: 124px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background: url('https://static.sonkwo.com/assets/gostore-7b32f77a974921d3a9f64ad461fd801805f368bee65064a1d44f504b684bd1a4.png');
+            }
+            .search-wrap {
+                float: left;
+                margin: 45px 20px 0 200px;
+                :after {
+                    @include clearfix;
+                }
+                .search-float-wrap {
+                    .search-float {
+                        float: left;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .info-wrap {
+                float: right;
+                margin-top: 45px;
+                :after {
+                    @include clearfix;
+                }
+                .info-float {
+                    float: left;
+                    margin-left: 10px;
+                }
+                img {
+                    @include border-radius(50%);
+                }
+            }
+        }
+    }
+}
