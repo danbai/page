@@ -26,7 +26,7 @@
         margin: 0 auto;
         .content-header {
             position: relative;
-            :after{
+            &:after{
                 @include clearfix;
             }
             .link-to-store {
@@ -40,7 +40,7 @@
             .search-wrap {
                 float: left;
                 margin: 45px 20px 0 200px;
-                :after {
+                &:after {
                     @include clearfix;
                 }
                 .search-float-wrap {
@@ -53,7 +53,7 @@
             .info-wrap {
                 float: right;
                 margin-top: 45px;
-                :after {
+                &:after {
                     @include clearfix;
                 }
                 .info-float {
@@ -62,6 +62,51 @@
                 }
                 img {
                     @include border-radius(50%);
+                }
+            }
+        }
+        .content-main {
+            padding: 30px 28px;
+            background-color: #e5e5e5;
+            .slide-img {
+                margin-bottom: 20px;
+                &:after {
+                    @include clearfix;
+                }
+                img {
+                    float: left;
+                    margin: 0 7px;
+                    width: 367px;
+                    height: 220px;
+                }
+            }
+            .slide-control {
+                height: 46px;
+                line-height: 46px;
+                text-align: center;
+                background-color: #adadad;
+                color: #fff;
+                ul {
+                    width: 200px;
+                    margin: 0 auto;
+                    &:after {
+                        @include clearfix;
+                    }
+                    li {
+                        float: left;
+                        margin-right: 10px;
+                        cursor: pointer;
+                    }
+                    .con {
+                        width: 12px;
+                        height: 12px;
+                        @include border-radius(50%);
+                        background-color: #fff;
+                        margin-top: 18px;
+                    }
+                    .con-current {
+                        background-color: #eb6100
+                    }
                 }
             }
         }

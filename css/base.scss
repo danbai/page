@@ -34,6 +34,8 @@ $menu-light-bg: #656565;
     visibility: hidden;
 }
 
+$default-border-radius: 3px;
+
 @mixin border-radius($tl:$default-border-radius, $tr:$tl, $br:$tl, $bl:$tl) {
     -moz-border-radius: $tl $tr $br $bl;
     -webkit-border-radius: $tl $tr $br $bl;

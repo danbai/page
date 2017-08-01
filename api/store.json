@@ -1,6 +1,11 @@
 {
     "response": {
         "storeArray": ["商城", "社区"],
-        "infoArray": ["个人中心", "我的订单", "我的优惠", "我的钱包", "我的私信", "联系客服", "设置", "退出"]
+        "infoArray": ["个人中心", "我的订单", "我的优惠", "我的钱包", "我的私信", "联系客服", "设置", "退出"],
+        "slideImg": [
+            ["https://s1.sonkwo.com/FlYQxZfLvs_A7KXWZlXHfdkH6K8g", "https://s1.sonkwo.com/FpxIYyBYEfHiaQFrx43KHmVPnKZE", "https://s1.sonkwo.com/FtdyL6vbDzKtW0CfBWkkddrUZn8Z"],
+            ["http://7fvk4m.com1.z0.glb.clouddn.com/FkxYSfWGbWEePcUT8sUPU3xViUhw", "https://s1.sonkwo.com/FqabBPFhpIpAIFH8RGoOey6ng_20", "https://s1.sonkwo.com/Fr2eeTO4rBd7ecuLKLff-x319V2z"],
+            ["http://7fvk4m.com1.z0.glb.clouddn.com/FsDTCVnB9DYkWF-m0p7zNdVfadTg", "https://s1.sonkwo.com/FlRoAygUPbrrej-MUtyQJVbRuDs6", "https://s1.sonkwo.com/FnEvfxQYeIWZGHji5uUGyb-Ba6Ec"]
+        ]
     }
 }
